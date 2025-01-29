@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("api/wordgame")
-public class gameController {
+public class wordGameController {
 
     @Autowired
     private wordGameService wordGameService;
