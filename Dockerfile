@@ -2,7 +2,7 @@
 FROM openjdk:17-jdk-alpine
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /
 
 # Copy the JAR file into the container
 COPY target/demo-0.0.1-SNAPSHOT.jar app.jar
